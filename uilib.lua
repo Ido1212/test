@@ -57,7 +57,7 @@ function library:CreateWatermark(name)
 	watermark.mainbar.Visible = watermark.Visible
 	watermark.mainbar.BorderSizePixel = 0
 	watermark.mainbar.ZIndex = 5
-	watermark.mainbar.Position = UDim2.new(1 --0.0559123, -89, 0.01, 0)
+	watermark.mainbar.Position = UDim2.new(0.0559123, -89, 0.01, 0)
 	watermark.mainbar.Size = UDim2.new(0, 0, 0, 25)
 
 	watermark.Gradient = Instance.new("UIGradient", watermark.mainbar)
